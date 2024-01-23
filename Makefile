@@ -1,14 +1,15 @@
 CC = g++
-OPT = -O3
-#OPT = -g
+#OPT = -O3
+OPT = -g
+STANDARD = -std=c++11
 WARN = -Wall
-CFLAGS = $(OPT) $(WARN) $(INC) $(LIB)
+CFLAGS = $(OPT) $(STANDARD) $(WARN) $(INC) $(LIB)
 
 # List all your .cc/.cpp files here (source files, excluding header files)
-SIM_SRC = sim_bp.cc
+SIM_SRC = sim_proc.cc
 
 # List corresponding compiled object files here (.o files)
-SIM_OBJ = sim_bp.o
+SIM_OBJ = sim_proc.o
  
 #################################
 
