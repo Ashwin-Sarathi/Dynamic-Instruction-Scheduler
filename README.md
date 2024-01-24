@@ -16,3 +16,5 @@ Instructions to run the project:
 
    To run with throttling (via "less"):
    ./sim 256 32 4 gcc_trace.txt | less
+
+The report file draws meaningful conclusions from the results attained by the simulator.
